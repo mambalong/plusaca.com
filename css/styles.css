@@ -1578,3 +1578,9 @@ h4.contact_header {
     font-size: 15px;
     font-weight: bolder;
 }
+.member-img:before {
+    background: rgb(0 0 0 / 0%);
+}
+.member-img:after {
+    background: rgb(0 0 0 / 0%);
+}
