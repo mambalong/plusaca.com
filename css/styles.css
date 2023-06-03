@@ -532,9 +532,7 @@ a.arrow-link:hover {
 .da-slider {
 	margin: 0 auto !important;
 }
-.heading h2 {
-	color: #222;
-}
+
 
 .sub-heading {
 	padding: 15px 0;
@@ -545,6 +543,17 @@ a.arrow-link:hover {
 }
 .sub-heading p {
 	color: #5A5A5A;
+}
+.program_entry {
+	padding-top: 50px;
+}
+
+.heading h2 {
+	color: white;
+	background-color: rgba(134, 47, 139, 0.75);
+	padding: 10px;
+	border-radius: 10px;
+	display: inline-block;
 }
 .heading {
 	padding: 3px 10px;
@@ -588,11 +597,21 @@ img, video, iframe, embed, object {
 }
 /* Features
     -------------------------------------------------*/
+
+.dropdown:hover .dropdown-menu {
+	display: block;
+}
 #aboutUs {
-	background: #fff;
+	background: #2c2a2a;
 	padding-top: 35px;
 	padding-bottom: 25px;
 	overflow: hidden;
+}
+#aboutUs h2{
+	color: #ffffff;
+}
+#aboutUs p{
+	color: #ffffff;
 }
 #aboutUs .feature {
 	margin-top: 30px;
